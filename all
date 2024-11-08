@@ -1,0 +1,5 @@
+ps -eo pid,ppid,pgid,lwp,sid,stat,tty,comm
+ps -eLo pid,ppid,pgid,lwp,sid,stat,tty,comm
+e - all process
+L - значит light weight processes - this is thread - if thread id equeal process id that mean its main thread
+o - stands for output
